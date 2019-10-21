@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
  def roll_call_dwarves(array)
  i = 0
@@ -15,6 +16,19 @@ def summon_captain_planet(array)
    i += 1
   end
   new
+=======
+
+ def roll_call_dwarves(array)
+ i = 0
+    while i < array.length do 
+      puts "#{i + 1}. #{array[i]}"
+      i += 1
+    end
+end
+  roll_call_dwarves(array)
+def summon_captain_planet# code an argument here
+  # Your code here
+>>>>>>> 8b5b8718f02101d590028b507820195e86a4304a
 end
 
 def long_planeteer_calls(array)
